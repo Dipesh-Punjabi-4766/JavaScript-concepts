@@ -1,4 +1,4 @@
-"use strict"; // treat all JS code as newer version
+"use strict"; // treat all JS code a s newer version
 
 //alert(3+3) we are using node js not browser hense we cant use alert direstly 
 console.log(3+3);
