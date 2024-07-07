@@ -11,7 +11,7 @@ let isLoggedIn = false
 
 // Primitive datatype
 //range of number 2^53
-//bigint
+//if the range of number is greater than 2^53 we use bigint
 //string => ""
 //boolean =>true/false
 //null => Standalone value
