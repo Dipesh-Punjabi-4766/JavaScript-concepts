@@ -48,7 +48,7 @@ console.log(newDate.getMonth() + 1);
 console.log(newDate.getDay());
 
 //Customizing toLocalString pribuild function
-newDate.toLocaleString('default', {
+console.log(newDate.toLocaleString('default', {
     weekday: "long"
     
-})
+}));
