@@ -41,7 +41,7 @@ console.log(JsUser[mySym])
 JsUser.email = "hitesh@chatgpt.com"
 
 //When we want freeze the value of key (i.e once the value of key is set it cant be changed )
-Object.freeze(JsUser)
+//Object.freeze(JsUser)
 
 //here we have tryied to change the value but as the previous line state that the key is freezed hence it cant be changed..
 JsUser.email = "hitesh@microsoft.com"
@@ -50,10 +50,10 @@ console.log(JsUser);
 JsUser.greeting = function() {
     console.log("Hello JS user");
 }
-console.log(JsUser.greeting);
+console.log(JsUser.greeting());
 
 
 JsUser.Two = function(){
     console.log(`Hello JS user, ${this.name}`);
 }
-console.log(JsUser.Two);
+console.log(JsUser.Two());
