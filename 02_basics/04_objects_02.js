@@ -76,6 +76,7 @@ const users = [
 // Access data from array of objects
 users[1].email
 
+// object De-structuring
 
 const course = {
     coursename: "js in hindi",
@@ -83,13 +84,15 @@ const course = {
     courseInstructor: "hitesh"
 }
 
-// course.courseInstructor
+console.log(courseInstructor);
 
 const {courseInstructor: instructor} = course
 
-// console.log(courseInstructor);
 console.log(instructor);
 
+//API (JSON file)
+// Api or json file are just the normal file which contain object without any name
+// API object also contain key:value pair like normal objects but the difference is here both key and value are in the string format  
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
