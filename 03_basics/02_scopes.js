@@ -5,12 +5,15 @@
 
 // let and const follow the theory of global and block scope but var is not able to follow the theory hence it is rarely used to declare any variable.
 
+
+// the below variable a,b,c are first declared outside {} hense they can be accessed in both the scope
 let a = 300
 const b =150
 var c = 300
 if (true) {
     let a = 10
     const b = 20
+    //the below variable a,b are re-declared Inside the if {} hense they can't be accessed in global scope
     console.log("INNER: ", a);
     
 }
