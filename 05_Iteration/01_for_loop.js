@@ -32,7 +32,7 @@ for (let index = 0; index < myArray.length; index++) {
 // break and continue
 
 console.log(`Break keyword`);
-for (let index = 1; index <= 10; index++) {
+for (let index = 1; index <= 8; index++) {
     if (index == 5) {
         console.log(`Detected 5`);
         break
@@ -42,7 +42,7 @@ for (let index = 1; index <= 10; index++) {
 }
 
 console.log(`Continue Keyword`);
-for (let index = 1; index <= 5; index++) {
+for (let index = 1; index <= 6; index++) {
     if (index == 3) {
         console.log(`Detected 3`);
         continue
