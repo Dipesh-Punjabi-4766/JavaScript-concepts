@@ -18,7 +18,7 @@ if (score > 100) {
 }
 
 //console.log(`User power: ${power}`);
-// the above statement is outside of the scope hense it can be implemented
+// the above statement is outside of the scope hense it can't be implemented
 
 const balance = 1000
 
