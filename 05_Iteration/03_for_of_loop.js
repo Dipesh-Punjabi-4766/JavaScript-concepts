@@ -1,4 +1,5 @@
 // for of
+// It is used to iterate an array 
 // It is siple and normal loop used to iterate till the object (array,string,etc,... on which loop is used) get over.
 // in for of loop by default the loop will run for all object so we dont require to increment or decrement the no of the index of the object 
 
