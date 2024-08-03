@@ -26,6 +26,7 @@ map.set('IN', "India")
 console.log(map);
 
 for (const [key, value] of map) {
+    //in above line we are separating the map data in key and value formate  
     console.log(`Data in Maps is ${key}  :-  ${value}`);
 }
 
