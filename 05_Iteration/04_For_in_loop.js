@@ -1,3 +1,4 @@
+// It is used when we want to iterate an object
 const myObject = {
     js: 'javascript',
     cpp: 'C++',
